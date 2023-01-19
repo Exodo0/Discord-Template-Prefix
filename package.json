@@ -1,0 +1,15 @@
+{
+  "name": "template-prefix",
+  "version": "1.0.0",
+  "description": "Template Bot Whit Prefix",
+  "main": "./index.js",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "author": "Abstractz",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "discord.js": "^14.7.1"
+  }
+}
