@@ -1,5 +1,5 @@
 {
-  "Token": "Tu Token Aqui",
-  "Prefix": "Tu Prefix Aqui",
-  "Database": "Hey si quieres puedes agregar una base de datos"
+  "Token": "Token",
+  "Prefix": "Prefix",
+  "MONGO_URI": "DataBase"
 }
