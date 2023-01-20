@@ -4,13 +4,13 @@ let table = new ascii("Lista de Comandos");
 table.setHeading("Commando", "Estado", "Categoria");
 
 module.exports = (client) => {
-  fs.readdirSync("./Commands/").forEach((dir) => {
+  fs.readdirSync("./commands/").forEach((dir) => {
     const commands = fs
-      .readdirSync(`./Commands/${dir}/`)
-      .filter((file) => file.endsWith(".js"));
+      .readdirSync(`./commands/${dir}/`)
+      .filter((files) => files.endsWith(".js"));
 
     for (let files of commands) {
-      let get = require(`../Commands/${dir}/${files}`);
+      let get = require(`../commands/${dir}/${files}`);
 
       if (get.name) {
         client.commands.set(get.name, get);
