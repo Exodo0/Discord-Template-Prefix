@@ -42,9 +42,8 @@ Once you have followed the previous steps you need to make the bot work Use this
 ```bash
 Step 2:
 
-node . \\Or Use 
+node .   
 
-node index.js
 ```
 ## FAQ
 
@@ -65,12 +64,6 @@ Even though I already have a 100% developed bot Invite it if you want to try it
 ## Support
 
 Do you want to support me? https://ko-fi.com/0exodo
-
-
-## Screenshots
-
-![Code Screenshots](https://media.discordapp.net/attachments/1053049310507446452/1065584151681581137/code.png?width=418&height=473)
-
 
 ## Authors:
 
